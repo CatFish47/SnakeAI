@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game</title>
+  <style>
+    #canvas-container {
+      width: 100%;
+      text-align:center;
+    }
+
+    canvas {
+      display: inline;
+    }
+
+    body, canvas {
+      overflow:hidden;
+      margin:0;
+      padding:0;
+    }
+
+    #board {
+      background-image: url("");
+
+      height: 100%;
+
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas-container">
+    <canvas id='board'></canvas>
+  </div>
+  <script src="snake.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
